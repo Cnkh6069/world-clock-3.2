@@ -37,3 +37,32 @@
 .read-the-docs {
   color: #888;
 }
+.table-row {
+  display: flex;
+  border: 1px solid #ccc; /* Add a bottom border to each row */
+  justify-content: center;
+  align-items: center;
+}
+
+.table-cell {
+  padding: 10px; /* Add padding to cells */
+
+  width: 170px;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-time {
+  padding: 10px; /* Add padding to cells */
+  border: 1px solid #ccc; /* Add a right border to cells */
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.table-cell:last-child {
+  padding: 10px; /* Add padding to cells */
+  border: 1px solid #ccc; /* Add a right border to cells */
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
